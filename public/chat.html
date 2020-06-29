@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet",
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css",
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm",
+    crossorigin="anonymous">
+    <title>アイドルを語る</title>
+</head>
+<body>
+    <div class = "chat-all">
+        <header class = "chat-header">
+            <h1>お前の好きなアイドルは誰だ</h1>
+            <a href="index.html" class = "btn">この部屋を去る</a>
+        </header>
+        <main class = "chat">
+            <div class = "chat-sidebar">
+                <h3>アイドル名</h3>
+                <h2 id = "room-name"></h2>
+                <h3>ユーザ名</h3>
+                <ul id = "users"></ul>
+            </div>
+            <div class="chat-message">
+                <div class = "message">
+                    <p class="meta">taiyo<span>2:09am</span></p>
+                    <p class="text">
+                        僕は凡人だからこそ努力では負けたくない
+                    </p>
+            
+                </div>
+                <div class = "message">
+                    <p class ="meta">ray<span>2:29am</span></p>
+                    <p class = "text">
+                        涙腺コルクでぎゅっ
+                    </p>
+                </div>
+            </div>
+        </main>
+        <div class ="chat-input-form">
+            <form id="chat-form">
+                <input type="text"id="mesg" placeholder="Enter Message" required autocomplete="off"/>
+                <button class ="btn">送信</button>
+            </form>
+        </div>
+    </div>
+
+    <script>src="https://code.jquery.com/jquery-3.4.1.slim.min.js"</script>
+    <script>src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js",
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl",
+        crossorigin="anonymous"</script>
+</body>
+</html>
