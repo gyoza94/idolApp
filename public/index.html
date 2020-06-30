@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" />
     <title>最高のアイドル探し</title>
 </head>
+
 <body>
     <h1>やあ</h1>
     <div class="join-container">
@@ -16,16 +18,20 @@
             <form action="chat.html">
                 <div class="form-control">
                     <label for="username">あなたの名前</label>
-                    <input
-                        type="text"
-                        name="username"
-                        id="username"
-                        placeholder="Enter username..."
-                        required
-                    />
+                    <input type="text" name="username" id="username" placeholder="Enter username..." required />
                 </div>
+                <div class="form-control">
+                    <label for="room">どこの部屋に行く</label>
+                    <select name="room" id="room">
+                        <option value="nerunagahama">長濱ねる</option>
+                        <option value="hinakawata">河田陽菜</option>
+                        <option value="sayakanagawa">金川沙耶</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">チャットに参加</button>
             </form>
         </main>
     </div>
 </body>
+
 </html>
